@@ -11,6 +11,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -24,6 +25,7 @@ public class MessageControllerTest {
     }
 
     @Test
+    @RequestMapping
     public void testGetMessage() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/messageService/getMessage/111")
                 .accept(MediaType.APPLICATION_JSON))
