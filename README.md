@@ -1,5 +1,5 @@
 # finance-gateway
- Finance-gateway is a unify message platform to access a series of channel of the world popular payment system or platform, such as SWIFT, CNAPS(China), CIPS(China), CFXPS(China), Money Gram, RTGS, Western Union, etc. It's convenient for bank and corporation to access mainstream payment and clearing channels as soon as possible, complete customer and business market development.
+ Finance-gateway is a unify message platform to access a series of channel of the world popular payment system or platform, such as SWIFT, CNAPS(China), CIPS(China), CFXPS(China), Money Gram, RTGS, Western Union, etc. It's convenient for bank and corporation to access mainstream payment and clearing channels as soon as possible, assist customer and business to expand the market share.
 
 ## 主要功能模块
 1. 插拔式地快速接入主流支付清算系统。
